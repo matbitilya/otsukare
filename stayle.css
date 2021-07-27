@@ -1,0 +1,57 @@
+body, * {
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    height: 100px;
+    width: 100px;
+    background-image: url(img/VmZze829TzWXC2JNCTwn_1NrsqW2WshL1tpaC.jfif);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    color: whitesmoke;
+    margin: 10px auto;
+    margin-bottom: 16px;
+}
+.otsukare {
+    background-color: rgb(61, 59, 60);
+    height: 24px;
+    width: 85.5px;
+    color: whitesmoke;
+    margin: 0 auto;
+    font-family: 'Karla', sans-serif;
+}
+.background {
+    background-color: rgb(61, 59, 60);
+    height: 736px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.block {
+    margin: 0 auto;   
+    height: 680px;
+    max-width: 636px;
+    position: relative;
+}
+ul li {
+    cursor: pointer;
+    /* width: 676px; */
+    height: 24px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: whitesmoke;
+    background-color: whitesmoke;
+    color: rgb(61, 59, 60);
+    font-family: 'Karla', sans-serif;
+    transition: 0.2s;
+    text-align: center;
+    display: block;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+}
+ul li:hover {
+    background: rgb(61, 59, 60);
+    color: whitesmoke;
+}
