@@ -3,23 +3,24 @@ body, * {
     padding: 0;
 }
 .logo {
-    height: 100px;
-    width: 100px;
-    background-image: url(img/VmZze829TzWXC2JNCTwn_1NrsqW2WshL1tpaC.jfif);
-    background-size: 100px 100px;
+    height: 96px;
+    width: 96px;
+    background-image: url(img/AnyConv.com__VmZze829TzWXC2JNCTwn_1NrsqW2WshL1tpaC-_1_.webp);
+    background-size: 96px;
     background-repeat: no-repeat;
     border-radius: 100%;
-    color: whitesmoke;
-    margin: 10px auto;
-    margin-bottom: 16px;
+    color: white;
+    margin: 12px auto;
+    margin-bottom: 18px;
 }
 .otsukare {
     background-color: rgb(61, 59, 60);
     height: 24px;
     width: 85.5px;
-    color: whitesmoke;
+    color: white;
     margin: 0 auto;
     font-family: 'Karla', sans-serif;
+    margin-bottom: 30px;
 }
 .background {
     background-color: rgb(61, 59, 60);
@@ -31,27 +32,38 @@ body, * {
 }
 .block {
     margin: 0 auto;   
-    height: 680px;
-    max-width: 636px;
+    height: 636px;
+    max-width: 680px;
     position: relative;
 }
-ul li {
+ul li a {
     cursor: pointer;
-    /* width: 676px; */
-    height: 24px;
+    margin-bottom: 16px;
+    height: 20px;
     border-style: solid;
     border-width: 2px;
-    border-color: whitesmoke;
-    background-color: whitesmoke;
+    border-color: white;
+    background-color: white;
     color: rgb(61, 59, 60);
     font-family: 'Karla', sans-serif;
-    transition: 0.2s;
+    transition: 0.25s;
     text-align: center;
     display: block;
-    padding: 16px 20px;
-    margin-bottom: 16px;
+    padding: 18px 20px;
+    padding-top: 19px;
+    padding-bottom: 17px;
+    text-decoration: none;
+    list-style-type: none;
 }
-ul li:hover {
+ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+ul li a:hover {
     background: rgb(61, 59, 60);
-    color: whitesmoke;
+    color: white;
+}
+
+.xyz {
+    display: block;
 }
